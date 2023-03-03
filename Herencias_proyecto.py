@@ -15,8 +15,14 @@ class Cliente:
         print("hola",self.telefono)
         self.correo = input("Escriba su correo")
         print("hola",self.nombre)
+class Puntos(Cliente):
+
+    def __init__(self, nombre, telefono, correo) -> None:
+        super().__init__(nombre, telefono, correo)
 
 cliente1 = Cliente("XXX",0,"XXXX")
 
 cliente1.registrar()
+
+
     
