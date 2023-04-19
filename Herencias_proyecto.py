@@ -18,5 +18,6 @@ class Cliente:
 
 cliente1 = Cliente("XXX",0,"XXXX")
 print("hhhhdfhhgsd")
+x = 5
 cliente1.registrar()
     
