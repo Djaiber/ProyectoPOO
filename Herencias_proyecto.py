@@ -17,6 +17,6 @@ class Cliente:
         print("hola",self.nombre)
 
 cliente1 = Cliente("XXX",0,"XXXX")
-print("hhhhdfhhd")
+print("hhhhdfhhgsd")
 cliente1.registrar()
     
